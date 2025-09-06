@@ -1,84 +1,185 @@
-body{
-margin: 0;    
+body {
+   margin: 0;
+   font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-#nav-bar{
-display: flex;
-flex-direction: row;
-gap: 10px;
-font-family: 'Times New Roman', Times, serif;
-font-size: 12px;
-color: white;
-justify-content: center;
-background-color:rgb(46, 75, 165);   
-height: 30px;
-margin-bottom:5px;
+#nav-bar {
+   display: flex;
+   gap: 10px;
+   font-size: 25px;
+   justify-content: center;
+   background-color: rgb(224, 225, 221);
+   height: 50px;
+   padding-top: 15px;
+   padding-bottom: 5px;
 }
-.img{
-width: 100px;
-border-radius: 50px;
-margin-right: 10px;
-}
-#intro{
-display: flex;
-justify-content: center;
-background-color: rgb(232, 240, 253);
-margin: 0;
-padding-bottom: 0;
-}
- #h{
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-    gap: 10px;
- }
- #name{
-  font-weight: bolder;
-  font-size: 25px;
-  color: rgb(46, 75, 165);
- }
 
- #about-me{
-    display: flex;
+a {
+   color: rgb(27, 36, 59);
+   text-decoration: none;
+}
+
+#Home {
+   height: 650px;
+   font-size: 100px;
+   color: white;
+   display: flex;
    flex-direction: column;
- background-color: rgb(210, 227, 253);
-gap: 10px;
-padding-top: 10px;
-padding-bottom: 15px;
-
- }
- .title{
-font-weight: bold;
-font-size: 25px;
-color:rgb(46, 75, 165);
- }
-.description{
-font-weight: lighter;
-    color: rgb(16, 18, 101);
-    font-size: 15px;
+   align-items: start;
+   padding-top: 50px;
+   background-color: rgb(27, 36, 59);
 
 }
-#skills{
- display: flex;
- flex-direction: column;
- gap: 10px;
- background-color: rgb(232, 240, 253);
-  padding-top: 10px;
+
+
+#everything {
+   animation: fadeIn 52ss ease-in-out;
+   background-color: white
+}
+
+img:hover {
+   box-shadow: 0 0 10px;
+
 
 }
-.des{
-display: flex;
-flex-direction: row;
-gap: 70px;
-padding-left:30px;
+
+
+#home-img {
+   width: 600px;
+   margin-left: 800px;
 
 }
-.img-skill{
-width: 50px;
+
+#about-me {
+   display: flex;
+   flex-direction: column;
+   width: 550px;
+   padding-left: 30px;
+}
+
+.title {
+   font-size: 80px;
+   font-weight: bolder;
+   border-bottom: 5px solid black;
+}
+
+.description {
+
+   font-size: 25px;
+}
+
+.section {
+   display: flex;
+   flex-direction: row;
+   gap: 50px;
 
 }
-.html{
-display: flex;
-flex-direction: row;
 
+#Education {
+   display: flex;
+   flex-direction: column;
+   width: 550px;
+}
+
+#skills {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+
+
+}
+
+.tk {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.Soft-Skills {
+   display: flex;
+   flex-direction: column;
+
+}
+
+.img {
+   width: 60px;
+}
+
+#skill-img {
+   display: flex;
+   gap: 5px;
+}
+
+.skill-name {
+   font-size: 35px;
+
+}
+
+ul li {
+   margin-bottom: 10px;
+   font-size: 30px;
+}
+
+.project-1 {
+   display: flex;
+   flex-direction: column;
+   width: 590px;
+   gap: 10px;
+   padding-left: 30px;
+}
+
+.img-project {
+   border-radius: 50px;
+}
+
+.img-project-2 {
+   display: flex;
+   padding-top: 100px;
+   padding-bottom: 30px;
+   border-radius: 50px;
+}
+
+.project-title {
+   font-size: 30px;
+   font-weight: bold;
+
+}
+
+.project-2 {
+   display: flex;
+   flex-direction: column;
+   width: 400px;
+   gap: 10px;
+
+}
+
+.img-project-3 {
+   width: 300px;
+
+}
+
+.project-3 {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+
+
+}
+
+#contact {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+   margin-top: 50px;
+}
+
+#in-icon {
+   width: 140px;
+
+}
+
+#gh-icon {
+   width: 150px;
+   border-radius: 80px;
 }
